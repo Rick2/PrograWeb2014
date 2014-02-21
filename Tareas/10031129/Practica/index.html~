@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+	<head> <!-- contiene referencias sobre el documento-->
+
+		<title> Practica 1</title>
+		<!-- Esto es un comentario -->
+		<meta charset="utf8-8">
+		<meta name="description" content="">
+		<meta name="viewport" content="width=divice-width"> <!--Reacomodar los componentes de la pagina. Ajusta auntomaticamente -->
+
+		<link rel="stylesheet" type="text/css" href="css/normalize.css">
+		<link rel="stylesheet" type="text/css" href="css/Estilo.css">
+		<script src="js/main.js"></script>
+
+		<!--<link href='http://fonts.googleapis.com/css?family=Allura' rel='stylesheet' type='text/css'>-->
+		<link href='http://fonts.googleapis.com/css?family=Jolly+Lodger' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Press+Start+2P' rel='stylesheet' type='text/css'>
+		
+	</head>
+
+	<body>
+		<div class="header-container"> <!-- dividiendo, seccionar la pagina--> 
+			<header class="container clear" id="titulo1"><!-- Encabezados pero del contenido, puedo tener mas de una clase por 										elemento pero solo un id--> 
+				<h1 class="title"> TITULO INICIAL </h1>
+				<nav>
+					<ul>
+						<li><a href="">Inicio</a></li>
+						<li><a href="www.itc.mx">itc</a></li>
+						<li><a href="www.itc.mx#titulo1" taget="_blank"> contacto</a></li>
+					</ul>
+				<nav>
+
+			</header>		
+
+		</div>
+
+		<div class="header-container2"> <!-- dividiendo, seccionar la pagina--> 
+			<article>			
+			<header>
+				<h2> Titulo de la noticia </h2>
+				<p> Descripcion de la noticia </p>
+			</header>
+			<section>
+				<h2> subtitulo de la noticia </h2>
+				<p> contenido de la noticia </p>
+			</section>			
+			<section>
+				<h2> subtitulo de la noticia </h2>
+				<p> contenido de la noticia </p>
+			</section>			
+			<footer>
+				<h2> fin del articulo </h2>
+				<p> mas informacion </p>
+			</footer>			
+		</article>
+		<aside>
+			<h3> barras laterales </h3>
+			<p> Informacion </p>
+		</aside>
+		</div>	
+	</div>
+	<div class="footer-container">
+		<footer class="conteiner"> 
+			<h3> informacion de contacto
+				lalalalala </h3>
+		</footer> 
+	</div>
+
+
+	</body>
+</html>
+
+
